@@ -6,6 +6,8 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
+
+<!--  the Css is ai generated-->
   <style>
     * {
       margin: 0;
@@ -79,12 +81,91 @@
       }
     }
 
+
+    #creditsButton {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      z-index: 100;
+      backdrop-filter: blur(5px);
+      transition: background-color 0.3s;
+    }
+
+    #creditsButton:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+    #creditsButton.disabled {
+      opacity: 0.0;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+
+    #creditsPanel {
+      position: fixed;
+      right: -300px;
+      top: 0;
+      width: 300px;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(10px);
+      color: white;
+      padding: 20px;
+      z-index: 99;
+    }
+
+    #creditsPanel .close-button {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .credits-content {
+      margin-top: 40px;
+    }
+
   </style>
-  <script type="module" crossorigin src="/assets/index-DJSviNeq.js"></script>
+  <script type="module" crossorigin src="/assets/index-BbO1h1AX.js"></script>
 </head>
 <body>
 <div id="loadingScreen">
   <img src="images/loading.png" alt="Loading...">
+</div>
+
+<button id="creditsButton">Credits</button>
+<div id="creditsPanel">
+  <button class="close-button">&times;</button>
+  <div class="credits-content">
+    <h2>Credits</h2>
+
+    <p>Created by: Veon Almeida</p>
+    <br>
+    <p>UI/UX by: Veon Almeida</p>
+    <br>
+    <p>Computer Model by: Mikkel Garde Blaase</p>
+    <p>Link:</p> <a href="https://skfb.ly/oCzWy"> https://skfb.ly/oCzWy</a>
+    <br>
+    <br>
+    <p>Version: 1.0.0</p>
+    <br>
+    <h3>Technologies Used:</h3>
+    <ul>
+      <li>Three.js</li>
+      <li>GSAP</li>
+      <li>Vite</li>
+    </ul>
+  </div>
 </div>
 <canvas id="canvas"></canvas>
 </body>
