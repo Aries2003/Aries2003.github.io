@@ -38,7 +38,7 @@ Includes:
 - Documentation
 - Setup assistance
 
-For commercial licensing inquiries, contact: [your contact info]
+For commercial licensing inquiries, contact: veonalmeida2003@gmail.com / linkendIn : veon almeida
 
 ## Dependencies Licenses
 This project uses the following third-party packages:
