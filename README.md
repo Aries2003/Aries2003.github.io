@@ -26,7 +26,7 @@ A 3D portfolio website built with Three.js, showcasing interactive 3D models and
 ## Licensing Options
 
 ### Open Source Version
-- Available under [Your chosen open source license]
+- Available under [License]
 - Includes basic features
 - Community support through issues
 
@@ -34,11 +34,11 @@ A 3D portfolio website built with Three.js, showcasing interactive 3D models and
 Includes:
 - Full source code
 - Private email support
-- [List specific premium features if any]
+- 7 days support period
 - Documentation
 - Setup assistance
 
-For commercial licensing inquiries, contact: veonalmeida2003@gmail.com / linkendIn : veon almeida
+For commercial licensing inquiries, contact: veonalmeida2003@gmail.com | www.linkedin.com/in/veon-almeida
 
 ## Dependencies Licenses
 This project uses the following third-party packages:
